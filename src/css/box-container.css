@@ -1,0 +1,204 @@
+.container {
+  display: flex;
+  background-color: white;
+  /* width: 100%; */
+  padding: 0.5rem;
+  border-radius: 16px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+input {
+  font-family: "Space Mono", monospace;
+  /* font-size: 1.4rem; */
+}
+
+.left-side {
+  margin: 0.8rem;
+  width: 300px;
+}
+
+/* bill -input field */
+
+.bill-input-field {
+  background-color: #edf6f7;
+  display: flex;
+  font-size: 1.4rem;
+  padding: 0 10px;
+  border-radius: 5px;
+}
+.bill-input-field input {
+  outline: none;
+  background-color: transparent;
+  border: 0;
+  text-align: right;
+  width: 100%;
+  font-weight: bold;
+  font-size: 1.2rem;
+  padding: 0.1rem 0;
+}
+.bill-input-field ::-webkit-input-placeholder {
+  text-align: right;
+}
+::-webkit-inner-spin-button,
+::-webkit-outer-spin-button {
+  appearance: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* button part */
+
+.first-line-of-button,
+.second-line-of-button {
+  display: flex;
+}
+
+.btn {
+  background-color: #00494d;
+  color: white;
+  font-family: "Space Mono", monospace;
+  width: 100%;
+  outline: none;
+  border: 0;
+  margin: 5px;
+  height: 35px;
+  font-weight: bold;
+  font-size: 1.1rem;
+  border-radius: 5px;
+}
+.btn:hover {
+  cursor: pointer;
+  background-color: #26c0ab;
+}
+
+/* header ,input people field */
+.header,
+.input-people-field {
+  display: flex;
+  font-size: 0.8rem;
+  border-radius: 5px;
+}
+.header {
+  justify-content: space-between;
+}
+.input-people-field {
+  background-color: #edf6f7;
+  display: flex;
+  font-size: 1.4rem;
+  padding: 0 10px;
+  justify-content: center;
+  align-items: center;
+}
+.input-people-field input {
+  outline: none;
+  background-color: transparent;
+  border: 0;
+  text-align: right;
+  font-weight: bold;
+  font-size: 1.2rem;
+  width: 100%;
+  padding-top: 0.2rem;
+  padding-bottom: 0.2rem;
+}
+.input-people-field ::-webkit-input-placeholder {
+  text-align: right;
+}
+.bill,
+.select-tip {
+  margin-bottom: 1rem;
+}
+
+.btn:first-child {
+  margin-left: 0;
+}
+
+.btn-input {
+  font-family: "Space Mono", monospace;
+  width: 100%;
+  outline: none;
+  border: 0;
+  margin: 5px;
+  height: 35px;
+  font-weight: bold;
+  font-size: 1.1rem;
+  text-align: right;
+  background-color: #edf6f7;
+  padding: 0 5px;
+  border-radius: 5px;
+}
+.btn-input::-webkit-input-placeholder {
+  text-align: center;
+  font-size: 1re;
+}
+.label {
+  margin-bottom: 5px;
+  font-size: 0.7rem;
+  font-weight: bolder;
+  color: #7f9c9f;
+}
+.icon {
+  color: #7f9c9f;
+  padding-top: 0.2rem;
+  padding-bottom: 0.2rem;
+}
+
+/* right side */
+
+.right-side {
+  min-width: 300px;
+  max-width: 50%;
+  background-color: #00494d;
+  margin: 0.8rem;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding: 1.4rem 1.1rem;
+  border-radius: 15px;
+}
+.tip-amount-container,
+.total-amount-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+}
+.tip-amount:first-child,
+.total-amount:first-child {
+  color: #ffffff;
+  font-size: 0.8rem;
+}
+.person {
+  font-size: 0.7rem;
+  color: #7f9c9f;
+}
+
+.reset-btn {
+  width: 85%;
+  align-self: center;
+  padding: 5px;
+  background-color: #0b6c69;
+  outline: none;
+  border: 0;
+  border-radius: 5px;
+  text-align: center;
+  font-family: "Space Mono", monospace;
+  font-weight: 900;
+  color: #00494d;
+  position: absolute;
+  bottom: 1.3rem;
+  margin-left: 1.6rem;
+  margin-right: 1.6rem;
+}
+.money {
+  font-size: 2rem;
+  font-weight: 900;
+  color: #26c0ab;
+}
+.tip-amount-container {
+  margin-bottom: 0.5rem;
+}
+.user {
+  font-size: 0.9rem;
+  color: #7f9c9f;
+  padding-top: 0.2rem;
+  padding-bottom: 0.2rem;
+}
