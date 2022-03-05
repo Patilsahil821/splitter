@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/splitter/static/css/main.47eadbff.css",
+    "main.js": "/splitter/static/js/main.762ea6f9.js",
+    "index.html": "/splitter/index.html",
+    "main.47eadbff.css.map": "/splitter/static/css/main.47eadbff.css.map",
+    "main.762ea6f9.js.map": "/splitter/static/js/main.762ea6f9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.47eadbff.css",
+    "static/js/main.762ea6f9.js"
+  ]
+}
